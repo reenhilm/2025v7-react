@@ -1,9 +1,9 @@
-Change the background color of the body
-Add a padding and a rounded frame around the main element
-Change the font on list items to a new mono font and all other text to another non-mono font
-Change the title of the page so that the new one is visible in the browser tab (meta)
-Add new optional text between the buttons and the list Add an image above the new text that is taken from an external source (e.g. from https://loremflickr.com/)
-Add an image below Next.js image that is downloaded locally and placed in the static content folder
+Change the background color of the body  
+Add a padding and a rounded frame around the main element  
+Change the font on list items to a new mono font and all other text to another non-mono font  
+Change the title of the page so that the new one is visible in the browser tab (meta)  
+Add new optional text between the buttons and the list Add an image above the new text that is taken from an external source (e.g. from https://loremflickr.com/)  
+Add an image below Next.js image that is downloaded locally and placed in the static content folder  
 
 
 
