@@ -1,4 +1,5 @@
 import Image from "next/image";
+import myImage from '../public/images/collage snöflinga.png';
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -19,7 +20,17 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
-
+        <Image
+          src="https://loremflickr.com/cache/resized/65535_53806041304_56b69a0fd5_320_240_nofilter.jpg"
+          width={320}
+          height={240}
+          alt="Random picture">
+        </Image>
+        <Image
+          src={myImage}
+          alt="Snöflinga collage"
+        />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius omnis rerum sit aperiam natus vero excepturi commodi qui repudiandae mollitia, quod labore deleniti, recusandae ratione consectetur eligendi? Est, iste repellendus!</p>
         <div className={styles.ctas}>
           <a
             className={styles.primary}
